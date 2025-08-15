@@ -1,4 +1,5 @@
 import express from "express";
+import bruxos from "./src/data/bruxos.js";
 
 const serverPort = 3000;
 const app = express();
@@ -49,6 +50,14 @@ app.get('/casas', (req, res) => {
       { nome: "Lufa-lufa", animal: "🦡", fundador: "Helga Hufflepuff" }
     ]
   });
+});
+
+app.get("/bruxos", (req, res) => {
+    res.json(bruxos);
+});
+
+app.listen(3000, () => {
+    console.log("🧙‍♂️ API dos Bruxos está no ar na porta 3000!");
 });
 
 // Iniciar servidor

@@ -11,8 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/PedroUE/API-Dos-Bruxos.git"
   },
-  "keywords": ["Harry Potter", "js", "nodemon", "node", "server"],
-  "author": "",
+  "keywords": [
+    "Harry Potter",
+    "js",
+    "nodemon",
+    "node",
+    "server"
+  ],
+  "author": "PEdro urbano",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PedroUE/API-Dos-Bruxos/issues"
