@@ -1,22 +1,24 @@
 {
   "name": "api-dos-bruxos",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cls && nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PedroUE/API-Dos-Bruxos.git"
   },
-  "keywords": [],
+  "keywords": ["Harry Potter", "js", "nodemon", "node", "server"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PedroUE/API-Dos-Bruxos/issues"
   },
   "homepage": "https://github.com/PedroUE/API-Dos-Bruxos#readme",
-  "description": "",
+  "description": "API From Wizards",
   "dependencies": {
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
