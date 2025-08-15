@@ -16,5 +16,9 @@
     "url": "https://github.com/PedroUE/API-Dos-Bruxos/issues"
   },
   "homepage": "https://github.com/PedroUE/API-Dos-Bruxos#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
 }
